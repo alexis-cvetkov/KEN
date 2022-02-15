@@ -42,7 +42,7 @@ This repository contains code and data for the paper "KEN: Knowledge Embedding w
 
 ***
 
-**3)** The datasets used in our experiments are available [here]() in the form of a zip file.
+**3)** The datasets used in our experiments are available [here](https://drive.google.com/file/d/1v4twxrOe_I9GSY9Xd7GEqnGLh3-4cGxn/view?usp=sharing) in the form of a zip file.
 
 The unzipped `datasets` folder should be placed in `experiments`.For each dataset `xxx`, `experiments/datasets/xxx` contains:
 - a file `target.parquet` that contains the entities of interest (e.g. counties, cities) and the target to predict.
