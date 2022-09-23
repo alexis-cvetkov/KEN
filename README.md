@@ -1,12 +1,12 @@
-# KEN: Knowledge Embedding with Numbers to Distill Information from Large Databases
+# Relational Data Embeddings for Feature Enrichment with Background Information
 
 ### 1. Structure of the repo
 
-This repository contains code and data for the paper "KEN: Knowledge Embedding with Numbers to Distill Information from Large Databases".
+This repository contains code and data for the paper "Relational Data Embeddings for Feature Enrichment with Background Information".
 
 **1)** The folder `KEN` contains the implementation of our approach, KEN, as described in the paper. It includes:
 
-- `KEN/models/entity_embedding` classes for the TransE, DistMukt and MuRE knowledge-graph embedding models (based on the [PyKEEN](https://github.com/pykeen/pykeen) package).
+- `KEN/models/entity_embedding` classes for the TransE, DistMult and MuRE knowledge-graph embedding models (based on the [PyKEEN](https://github.com/pykeen/pykeen) package).
 
 - `KEN/models/numerical_embedding` classes implementing our approach (a linear layer with ReLU activation, see `linear2.py`) and a binning approach to embed numerical values (`binning.py`).
 
